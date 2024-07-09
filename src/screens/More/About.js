@@ -87,7 +87,7 @@ const AboutScreen = ({ navigation }) => {
                     title="What's new"
                     onPress={() =>
                         Linking.openURL(
-                            "https://github.com/rajarsheechatterjee/shigoto/commits/master"
+                            "https://github.com/mauryarajeev/shigoto/commits/master"
                         )
                     }
                 />
@@ -97,10 +97,10 @@ const AboutScreen = ({ navigation }) => {
                     titleStyle={{ color: theme.textColor }}
                     descriptionStyle={{ color: theme.subTextColor }}
                     title="Github"
-                    description="https://github.com/rajarsheechatterjee/shigoto"
+                    description="https://github.com/mauryarajeev/shigoto/commits/master"
                     onPress={() =>
                         Linking.openURL(
-                            "https://github.com/rajarsheechatterjee/shigoto"
+                            "https://github.com/mauryarajeev/shigoto/commits/master"
                         )
                     }
                 />
